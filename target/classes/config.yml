@@ -1,0 +1,42 @@
+blocks:
+  IRON_BLOCK:
+    size: 15
+    hp: 3
+permissions:
+  add: skpsblock.add
+  remove: skpsblock.remove
+  list: skpsblock.list
+  info: skpsblock.info
+  reload: skpsblock.reload
+  delete: skpsblock.delete
+  help: skpsblock.help
+messages:
+  prefix: "§7[§bSKPrivate§7] "
+  region_create: "§aРегион успешно создан! Прочность: §e{hp}§a HP."
+  limit_reached: "§cВы достигли лимита регионов!"
+  region_overlap: "§cЗдесь уже есть регион!"
+  not_owner: "§cВы не владелец этого региона!"
+  not_owner_break: "§cВы не можете сломать чужой регион!"
+  region_break: "§cРегион удален (блок сломан)!"
+  region_deleted: "§cРегион удален командой!"
+  confirm_delete: "§eВведите еще раз в течении 10 сек. для подтверждения!"
+  no_region_here: "§cВы не в своем регионе!"
+  player_added: "§aИгрок {player} добавлен!"
+  player_removed: "§aИгрок {player} удален!"
+  enter_region: "§a[+] Вход в регион"
+  exit_region: "§c[-] Выход из региона"
+  not_looking_at_block: "§cВы должны смотреть на блок привата!"
+  no_permission: "§cУ вас нет прав!"
+  region_damaged: "§6[!] Ваш регион атакуют! Прочность: §e{hp}§7/§e{max}"
+  region_destroyed: "§4[!!!] Ваш регион был уничтожен взрывами!"
+  # Обновленный формат инфо
+  info_format: |
+    §bУчастник: §4{owner} §6{members}
+    §bРазмер: §f{size}
+    §bПрочность: §e{hp}§7/§e{max}
+  help:
+    - "§b/ps add <ник> §7- добавить друга"
+    - "§b/ps remove <ник> §7- удалить друга"
+    - "§b/ps info §7- информация"
+    - "§b/ps list §7- список ваших регионов"
+    - "§b/ps delete §7- удалить регион"

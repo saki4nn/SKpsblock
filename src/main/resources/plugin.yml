@@ -1,0 +1,8 @@
+name: SKpsblock
+version: 1.0
+main: saki4.skpsblock.SKpsblock
+api-version: 1.13
+depend: [WorldGuard]
+commands:
+  ps:
+    description: SKpsblock commands
